@@ -1,0 +1,125 @@
+.error {
+    border: red 2.7px solid;
+}
+/*input::-webkit-outer-spin-button,*/
+/*input::-webkit-inner-spin-button {*/
+/*    -webkit-appearance: none;*/
+/*    margin: 0;*/
+/*}*/
+/*input[type="number"] {*/
+/*    -moz-appearance: textfield;*/
+/*}*/
+
+.error-display {
+    color: red;
+    font-size: 14px;
+}
+.outer_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    padding: 5vw 5vw 0 5vw;
+}
+/*input {*/
+/*    height: 7.5vh;*/
+/*    width: 25vw;*/
+/*    max-width: 500px;*/
+/*    margin-bottom: 1em;*/
+/*    border: 1px solid grey;*/
+/*    padding-left: 5px;*/
+/*    border-radius: 5px;*/
+/*    font-size: 15px;*/
+/*}input {*/
+/*    height: 7.5vh;*/
+/*    width: 25vw;*/
+/*    max-width: 500px;*/
+/*    margin-bottom: 1em;*/
+/*    border: 1px solid grey;*/
+/*    padding-left: 5px;*/
+/*    border-radius: 5px;*/
+/*    font-size: 15px;*/
+/*}*/
+/*input:focus {*/
+/*    outline: none;*/
+/*}*/
+.pin:hover {
+    border-color: black;
+}
+.pin:focus {
+    border: 3px solid #68b3ff;
+    border-radius: 10px;
+}
+
+/*label {*/
+/*    position: absolute;*/
+/*    left: 5px;*/
+/*    top: 16px;*/
+/*    color: #999;*/
+/*    font-size: 18px;*/
+/*    transition: 0.2s ease all;*/
+/*    padding-left: 1px;*/
+/*    padding-right: 1px;*/
+/*    pointer-events: none;*/
+/*}*/
+/*input:focus ~ label,*/
+/*input:valid ~ label {*/
+/*    top: -9px;*/
+/*    left: 9px;*/
+/*    font-size: 14px;*/
+/*    font-weight: 600;*/
+/*    color: #68b3ff;*/
+/*    background-color: #ffffff;*/
+/*}*/
+.highlight {
+    position: absolute;
+    opacity: 0.5;
+    height: 50%;
+    width: 100px;
+    top: 10%;
+    left: 0;
+    pointer-events: none;
+}
+
+
+h4 {
+    color: #3599ff;
+    font-family: sans-serif;
+}
+.column-content{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: flex-start;
+    border: 0px solid green;
+}
+.row-content{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+    border: 0px solid green;
+}
+.label{
+    min-width: 140px;
+}
+label{
+    margin-left: 5px;
+    padding: 12px 12px 3px 0;
+    display: inline-block;
+}
+.text{
+    font-size: 13px;
+    color: #42515f;
+    opacity: 1;
+    font-family: Roboto;
+}
+.input_i{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
